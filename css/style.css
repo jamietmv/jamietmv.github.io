@@ -692,8 +692,11 @@ label{
 }
 
 .button{
-  width: 150px;
+  width: auto;
   height: 40px;
+  padding-left:20px;
+  padding-right:20px;
+  min-width:96px;
   background: #6bccb8;
   border:0;
   border-radius: 0px;
@@ -702,7 +705,6 @@ label{
   text-align: center;
   display: inline-block;
   line-height:40px;
-  padding:0px;
   font-size:14px;
 }
 
@@ -757,6 +759,69 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+
+/*
+**************************
+FILTER
+**************************
+*/
+
+.filters .ui-group .button-group{
+  margin: 0px 20px 30px 20px;
+  text-align: center;
+}
+
+.filters .ui-group .button-group .button{
+  width: auto;
+  height: 40px;
+  padding-left:20px;
+  padding-right:20px;
+  min-width:84px;
+  background: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: : #6bccb8;
+  border-radius: 20px;
+  font-family: 'Circular-Pro-Medium', 'Raleway', sans-serif;
+  color: #6bccb8;
+  text-align: center;
+  display: inline-block;
+  line-height:40px;
+  font-size:14px;
+  margin-bottom: 10px;
+}
+
+.filters .ui-group .button-group .button:hover{
+  background: rgb(107,204,184,0.15);
+}
+
+.filters .ui-group .button-group .is-checked{
+  background: rgb(107,204,184,0.15);
+  width: auto;
+  height: 40px;
+  padding-left:20px;
+  padding-right:20px;
+  min-width:84px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: : #6bccb8;
+  border-radius: 20px;
+  font-family: 'Circular-Pro-Medium', 'Raleway', sans-serif;
+  color: #6bccb8;
+  text-align: center;
+  display: inline-block;
+  line-height:40px;
+  font-size:14px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 
 
 /* Smooth scroll 
